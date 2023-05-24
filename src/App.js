@@ -5,9 +5,18 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <nav class="nav-flex" aria-label="primary-navigation">
+            <img src={logo} className="App-logo" alt="Eric's Logo" tabindex="-1"/>
+            <div class="flex-row">
+                <a class="link" href="#projects">projects</a>
+                <a class="link" href="#experience">experience</a>
+                <a class="link" href="#resume">resume</a>
+                <a class="link" href="#links">find me!</a>
+            </div>
+        </nav>
+
         <h1 className="Main-title">Eric Ma</h1>
         
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -19,9 +28,23 @@ function App() {
         >
           Learn React
         </a>
+
       </header>
 
       <main className="App-main">
+        <section id="projects">
+          <h2 class="title">Projects</h2>
+        </section>
+
+        <section id="experience">
+          <h2 class="title">Experience</h2>
+        </section>
+        <section id="resume">
+          <h2 class="title">Resume</h2>
+        </section>
+        <section id="links">
+          <h2 class="title">Stalk me (but in a fun way)</h2>
+        </section>
 
       </main>
 
