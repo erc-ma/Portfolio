@@ -1,8 +1,8 @@
 /*
-vars and color
+variables and color
  */
  :root {
-  /* define the color pallet */
+  /* color pallet */
   --primary-color: #D1F7FF;
   --primary-color: rgb(220, 251, 254);
   --secondary-color: #FAEAC0;
@@ -12,6 +12,11 @@ vars and color
 
 .App {
   text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  line-height: 1.5;
+  background-color: rgb(30, 30, 30);
+  color: #303030;
+  font-weight: 300;
 }
 
 .App-logo {
@@ -19,11 +24,35 @@ vars and color
   pointer-events: none;
 }
 
+/**
+  * Ensures smooth link scroll animation
+*/
+html {
+  scroll-behavior: smooth; 
+}
+
+/**
+  * Animations for rotation
+*/
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 1s linear;
+
+    /* Comment this out if you want continuous spin */
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+
   }
 }
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 
 .App-header {
   background-color: var(--primary-color);
@@ -43,10 +72,38 @@ nav {
   margin: 0 20px 15px 20px;
   padding: 0;
 }
+
+
+
+/* Link Styling - https://codepen.io/team/css-tricks/pen/xxPORam */
 .link {
+  text-decoration: none;
+  position: relative;
   color: var(--accent-color);
   font-weight: 700;
 }
+
+.link::before {
+  content: "";
+  background-color: #0000ff77;
+  position: absolute;
+  left: 0;
+  bottom: -0.125rem;
+  width: 100%;
+  height: 2px;
+  z-index: 5;
+  transition: all 0.2s ease-out;
+}
+
+.link:hover::before {
+  bottom: 0;
+  height: 100%;
+  background-color: #0000ff22;
+  border-radius: 5%;
+  transform: scale(1.1);
+}
+
+
 
 .nav-flex {
   display: flex;
@@ -96,11 +153,3 @@ h2 {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
