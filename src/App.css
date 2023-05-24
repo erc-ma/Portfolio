@@ -18,6 +18,10 @@ variables and color
   color: #303030;
   font-weight: 300;
 }
+p {
+  line-height: 1.2;
+  color: var(--second-accent-color);
+}
 
 .App-logo {
   height: 15vmin;
@@ -64,13 +68,45 @@ html {
   font-size: calc(10px + 2vmin);
   color: var(--second-accent-color);
 }
+nav {
+  margin: 0 20px 15px 20px;
+  padding: 0;
+}
+
+
+/*
+section format + colors
+ */
+
+/* section, header {
+  padding: 4rem 2rem 4rem 2rem;
+} */
+
+section:nth-child(even) {
+  background-color: var(--primary-color);
+}
+
+section:nth-child(odd) {
+  background-color: var(--secondary-color);
+}
+
+.title, .title-info-flex, .edges{
+  text-align: left;
+  padding: 0 5rem;
+}
+
 .title {
   color: var(--accent-color);
   margin-bottom: 2rem;
 }
-nav {
-  margin: 0 20px 15px 20px;
-  padding: 0;
+
+h2 {
+  font-size: 2.5rem;
+}
+
+strong {
+  color: var(--accent-color);
+  font-weight: 800;
 }
 
 
@@ -103,6 +139,11 @@ nav {
   transform: scale(1.1);
 }
 
+
+
+.qualification-list{
+
+}
 
 
 .nav-flex {

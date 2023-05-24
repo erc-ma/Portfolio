@@ -37,10 +37,30 @@ function App() {
       <main className="App-main">
         <section id="projects">
           <h2 class="title">Projects</h2>
+            <div className = "qualification-list">
+              
+              {/* TODO: CREATE A PROJECT NODE CLASS AND MAP THROUGH */}
+              <div className="PROJECT_MAKE_OWN_CLASS">
+                <h3>Mini-Dash</h3>
+                <p>
+                  Built a <strong>hypermedia web application</strong> that  
+                </p>
+              </div>
+
+
+
+
+            </div>
         </section>
 
         <section id="experience">
           <h2 class="title">Experience</h2>
+            <div className = "qualification-list">
+                <p>
+                  This project <strong>strongly recommend</strong>
+                    
+                </p>
+              </div>
         </section>
         <section id="resume">
           <h2 class="title">Resume</h2>
