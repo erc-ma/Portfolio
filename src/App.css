@@ -1,3 +1,15 @@
+/*
+vars and color
+ */
+ :root {
+  /* define the color pallet */
+  --primary-color: #D1F7FF;
+  --primary-color: rgb(220, 251, 254);
+  --secondary-color: #FAEAC0;
+  --accent-color: #DA627D;
+  --second-accent-color: #222E50;
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +26,17 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: var(--primary-color);
+  min-height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-main {
+  background-color: var(--secondary-color);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +44,14 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--accent-color);
+  line-height: .8;
+  z-index: 5;
 }
 
 .App-link {
