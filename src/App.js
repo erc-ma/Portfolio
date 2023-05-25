@@ -18,19 +18,10 @@ function App() {
             </div>
         </nav>
 
-        <h1 className="Main-title">Eric Ma</h1>
-        
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* <h3 className="sub-title"> hey! i'm </h3> */}
+        <h1 className="main-title">eric ma</h1>
+        <h3 className="sub-title"><a className="subtitle-link" target="_blank" href="https://brown.edu">brown '25</a></h3>
+        <h3 className="sub-title">software intern <a class="subtitle-link"target="_blank" href="https://brown-dash.github.io/Dash-Documentation/about/"> @BrownDash</a></h3>
 
       </header>
 
@@ -39,16 +30,19 @@ function App() {
           <h2 class="title">Projects</h2>
             <div className = "qualification-list">
               
-              {/* TODO: CREATE A PROJECT NODE CLASS AND MAP THROUGH */}
-              <div className="PROJECT_MAKE_OWN_CLASS">
+              <div className="list-element">
                 <h3>Mini-Dash</h3>
                 <p>
                   Built a <strong>hypermedia web application</strong> that  
                 </p>
               </div>
 
-
-
+              <div className="list-element">
+                <h3>Othello</h3>
+                <p>
+                  Implemented a <strong> strategy board game </strong> that implements 3 levels of <strong>computer "AI WHAT IS IT"</strong> using <strong>mini-max algorithm</strong>
+                </p>
+              </div>
 
             </div>
         </section>
@@ -56,11 +50,22 @@ function App() {
         <section id="experience">
           <h2 class="title">Experience</h2>
             <div className = "qualification-list">
+
+            <div className="list-element">
+                <h3>Mini-Dash</h3>
                 <p>
-                  This project <strong>strongly recommend</strong>
-                    
+                  Built a <strong>hypermedia web application</strong> that  
                 </p>
               </div>
+
+              <div className="list-element">
+                <h3>Othello</h3>
+                <p>
+                  Implemented a <strong> strategy board game </strong> that implements 3 levels of <strong>computer "AI WHAT IS IT"</strong> using <strong>mini-max algorithm</strong>
+                </p>
+              </div>
+
+            </div>
         </section>
         <section id="resume">
           <h2 class="title">Resume</h2>
