@@ -133,26 +133,30 @@ function App() {
 
         <section id="socials">
           <h2 className="title">Stalk me (but in a fun way)</h2>
-          <div className = "stalk-element">
-            <h4>send me an email</h4>
-            <p>email api</p>
-            <p>(implemented with --- api)</p>
-          </div>
-          <div className = "stalk-element">
-            <h4>my social media:</h4>
-            <p>Github, LinkedIn, Instagram, Resume</p>
-          </div>
+          <div className='stalk-elements'>
 
-          <div className = "stalk-element">
-            <h4>i also make music!</h4>
-            <p>musicPage, spotify, applemusic, youtube</p>
-          </div>
+            <div className = "stalk-element">
+              <h3 className = "stalk-title">email</h3>
+              <p>email api</p>
+              <p>(implemented with --- api)</p>
+            </div>
+            <div className = "stalk-element">
+              <h3 className = "stalk-title">socials</h3>
+              <p>Github, LinkedIn, Instagram, Resume</p>
+            </div>
 
-          <div className = "stalk-element">
-            <h4>my photography portfolio</h4>
-            <p>ericma.com/photography -- JUST USE ADOBE TO SAVE TIME TBH</p>
-            
+            <div className = "stalk-element">
+              <h3 className = "stalk-title">music</h3>
+              <p>musicPage, spotify, applemusic, youtube</p>
+            </div>
+
+            <div className = "stalk-element">
+              <h3 className = "stalk-title">photography</h3>
+              <p>ericma.com/photography -- JUST USE ADOBE TO SAVE TIME TBH</p>
+            </div>
+
           </div>
+          
 
         </section>
 
