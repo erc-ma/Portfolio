@@ -157,6 +157,9 @@ section:nth-child(odd) {
   justify-content: space-between;
 }
 .element-image{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10vh;
 
 }
 .course-list{
@@ -242,6 +245,23 @@ ul{
   padding: 0 7%;
   font-size:80%;
   margin-top: 0;
+}
+span{
+  color: var(--accent-color);
+  font-weight: 800;
+}
+mark.red{
+  color: var(--accent-color);
+  font-weight: 800;
+}
+figcaption{
+  display: flex;
+  flex-direction: row;
+  line-height: 1.2;
+  color: var(--second-accent-color);
+  text-align: left;
+  padding: 0 5%;
+  font-size:70%;
 }
 
 

@@ -47,18 +47,21 @@ function App() {
               <div className="exp-element">
 
                 <h3 href='https://dash-starter-project-erc-ma.web.app/'>Mini-Dashboard</h3>
-                
-
-
                 <div className='element'>
                   <p>
-                    Built a --/hypermedia web application/-- to store and organize media within an unbounded 2D freeform canvas. 
-                    Functionality for images, websites, text editing, and collections with --/linking/-- and --/multi-view functionality/-- 
+                    Built a 
+                    hypermedia web application
+                    to store and organize media within an unbounded 2D freeform canvas. 
+                    Functionality for images, websites, text editing, and collections with 
+                    linking
+                    and 
+                    multi-view functionality.
                   </p>
 
                   <div className='element-image'>
                     <img src='./dash.png'></img>
-                    <figcaption>Skills: React, Typescript, MobX, SCSS <a href='https://github.com/brown-dash/dash-starter-project-erc-ma'>Repo</a></figcaption>
+                    <figcaption>Skills: React, Typescript, MobX, SCSS</figcaption>
+                    <a href='https://github.com/brown-dash/dash-starter-project-erc-ma'>Repo</a>
                   </div>
                 </div>
                 
