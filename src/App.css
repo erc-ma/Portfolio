@@ -145,7 +145,16 @@ section:nth-child(odd) {
 
 }
 .exp-element{
-  
+  display: flex;
+  flex-direction: column;
+}
+.element{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.element-image{
+
 }
 .course-list{
   display: flex;
@@ -197,6 +206,12 @@ p{
   font-size:90%;
 }
 strong {
+  display: inline !important;
+  color: var(--accent-color);
+  font-weight: 800;
+}
+.strong-text{
+  display: inline ;
   color: var(--accent-color);
   font-weight: 800;
 }

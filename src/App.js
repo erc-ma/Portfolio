@@ -47,26 +47,33 @@ function App() {
               <div className="exp-element">
 
                 <h3 href='https://dash-starter-project-erc-ma.web.app/'>Mini-Dashboard</h3>
-                <p>
-                  Built a <strong>hypermedia web application</strong> to store and organize media within an unbounded 2D freeform canvas. 
-                  Functionality for images, websites, text editing, and collections with <strong> linking </strong>and<strong> multi-view functionality</strong> 
-                </p>
-                <p>
-                  Skills: React, Typescript, MobX, SCSS
-                </p>
-                <a href='https://github.com/brown-dash/dash-starter-project-erc-ma'>Repo</a>
+                
 
-                <p>
-                  ADD GIF HERE (backup with image, backup with text)
-                </p>
+
+                <div className='element'>
+                  <p>
+                    Built a --/hypermedia web application/-- to store and organize media within an unbounded 2D freeform canvas. 
+                    Functionality for images, websites, text editing, and collections with --/linking/-- and --/multi-view functionality/-- 
+                  </p>
+
+                  <div className='element-image'>
+                    <img src='./dash.png'></img>
+                    <figcaption>Skills: React, Typescript, MobX, SCSS <a href='https://github.com/brown-dash/dash-starter-project-erc-ma'>Repo</a></figcaption>
+                  </div>
+                </div>
+                
+              
 
               </div>
 
               <div className="exp-element">
+
+
                 <h3>Othello</h3>
                 <p>
                   Developed a <strong> strategy board game </strong> application that implements 3 levels of <strong>computer intelligence</strong> using <strong>recursive mini-max algorithm</strong>
                 </p>
+
                 <p>
                   Skills: Java (JavaFX Graphics)
                 </p>
@@ -83,7 +90,7 @@ function App() {
             <div className = "qualifications">
 
             <div className="exp-element">
-                <h3>Brown Dash (Software Intern)</h3>
+                <h3>Brown Dash [Adobe-Funded Project](Software Intern)</h3>
                 <p>
                 Worked on a collaborative browser-based web application in a team...
                   Implemented a map system using BingMapsReact API. Contributed many front-end UX updates.
