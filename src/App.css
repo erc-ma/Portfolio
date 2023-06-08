@@ -18,6 +18,11 @@ variables and color
   height: 15vmin;
   pointer-events: none;
 }
+.social-logo{
+  height:5vmin;
+  margin-right: 10px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 1s linear;
@@ -52,7 +57,7 @@ variables and color
 .App-header {
   background-color: var(--primary-color);
   padding-top: 5vh;
-  padding-bottom: 20vh;
+  padding-bottom: 10vh;
   /* min-height: 70vh; */
   display: flex;
   flex-direction: column;
@@ -170,17 +175,21 @@ section:nth-child(odd) {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  align-content: space-between;
   flex-wrap: wrap;
+  
   padding: 0 3%;
 }
 .stalk-element{
   border-radius: 25px;
   margin:10px;
   background-color: var(--secondary-color);
+  min-width: 20vw;
 }
 .stalk-title{
   display: flex;
   align-items: center;
+  margin-bottom: 10px;
 
 }
 .current-course{
@@ -216,6 +225,14 @@ h3{
   text-align: left;
   padding: 0 5%;
   margin-bottom: 0;
+}
+.logos-row{
+  padding: 0 8%;
+}
+.logos-row-socials{
+  display:flex;
+  align-items: flex-start;
+  padding: 0 0%;
 }
 p{
   display: flex;

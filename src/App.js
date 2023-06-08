@@ -23,8 +23,18 @@ function App() {
         <h3 className="sub-title"><a className="subtitle-link" target="_blank" href="https://brown.edu">brown '25</a></h3>
         <h3 className="sub-title">software intern <a className="subtitle-link"href="#experience"> @BrownDash</a></h3>
         <h3 className="sub-title">former dev <a className="subtitle-link"href="#experience" > @FullStack</a></h3>
+        <div className='logos-row'>
+          <a target="_blank" href='https://github.com/erc-ma'>
+            <img className="social-logo" src='https://cdn-icons-png.flaticon.com/512/25/25231.png'></img>
+          </a>
+          <a target="_blank" href='https://www.linkedin.com/in/eric-ma-149041233/'>
+            <img className="social-logo" src='https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png'></img>
+          </a>
+          <a target="_blank" href='mailto:eric_ma@brown.edu'>
+            <img className="social-logo" src='https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png'></img>
+          </a>
+        </div>
         
-        <p>githublogo/link, linkedin/logolink, email/logolink</p>
         {/* <button>
           <div class="py-3 px-3 border rounded-lg border-gray-300 dark:border-gray-600 hover:bg-gray-200 dark:hover:bg-gray-600">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="h-5 w-5 fill-black dark:fill-white">
@@ -89,7 +99,6 @@ function App() {
 
             <div className="exp-element">
                 <a className = "exp-title" href="https://brown-dash.github.io/Dash-Documentation/about/" target="_blank">Brown Dash [Adobe-Funded Project](Software Intern)</a>
-                
                 <div className='element'>
                   <p>
                   Worked on a collaborative browser-based web application in a team...
@@ -146,6 +155,7 @@ function App() {
         </section>
 
         <section id="socials">
+                
           <h2 className="title">Stalk me (but in a fun way)</h2>
           <div className='stalk-elements'>
 
@@ -156,7 +166,17 @@ function App() {
             </div>
             <div className = "stalk-element">
               <h3 className = "stalk-title">socials</h3>
-              <p>Github, LinkedIn, Instagram, Resume</p>
+              <div className='logos-row'>
+                <a target="_blank" href='https://github.com/erc-ma'>
+                  <img className="social-logo" src='https://cdn-icons-png.flaticon.com/512/25/25231.png'></img>
+                </a>
+                <a target="_blank" href='https://www.linkedin.com/in/eric-ma-149041233/'>
+                  <img className="social-logo" src='https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png'></img>
+                </a>
+                <a target="_blank" href='https://www.instagram.com/erc.ma'>
+                  <img className="social-logo" src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1024px-Instagram_logo_2022.svg.png'></img>
+                </a>
+            </div>
             </div>
 
             <div className = "stalk-element">
@@ -166,7 +186,11 @@ function App() {
 
             <div className = "stalk-element">
               <h3 className = "stalk-title">photography</h3>
-              <p>ericma.com/photography -- JUST USE ADOBE TO SAVE TIME TBH</p>
+              
+              <p>Find some of my photos here:   <a target="_blank" href='https://ericmaa753.myportfolio.com/'>
+                <img className="social-logo" src='https://static-00.iconduck.com/assets.00/adobe-portfolio-icon-512x512-mfisumyd.png'></img>
+              </a></p>
+              
             </div>
 
           </div>
