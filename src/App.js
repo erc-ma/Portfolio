@@ -21,8 +21,8 @@ function App() {
         {/* <h3 className="sub-title"> hey! i'm </h3> */}
         <h1 className="main-title">eric ma</h1>
         <h3 className="sub-title"><a className="subtitle-link" target="_blank" href="https://brown.edu">brown '25</a></h3>
-        <h3 className="sub-title">software intern <a className="subtitle-link"target="_blank" href="https://brown-dash.github.io/Dash-Documentation/about/"> @BrownDash</a></h3>
-        <h3 className="sub-title">former dev <a className="subtitle-link"target="_blank" href="https://www.linkedin.com/company/full-stack-at-brown/"> @FullStack</a></h3>
+        <h3 className="sub-title">software intern <a className="subtitle-link"href="#experience"> @BrownDash</a></h3>
+        <h3 className="sub-title">former dev <a className="subtitle-link"href="#experience" > @FullStack</a></h3>
         
         <p>githublogo/link, linkedin/logolink, email/logolink</p>
         {/* <button>
@@ -45,12 +45,12 @@ function App() {
             <div className = "qualifications">
               
               <div className="exp-element">
-
-                <h3 href='https://dash-starter-project-erc-ma.web.app/'>Mini-Dashboard</h3>
+                
+                <a className = "exp-title" href='https://dash-starter-project-erc-ma.web.app/' target="_blank">Mini-Dash</a>
                 <div className='element'>
                   <p>
                     Built a 
-                    hypermedia web application
+                    hypermedia web app
                     to store and organize media within an unbounded 2D freeform canvas. 
                     Functionality for images, websites, text editing, and collections with 
                     linking
@@ -60,32 +60,27 @@ function App() {
 
                   <div className='element-image'>
                     <img src='./dash.png'></img>
-                    <figcaption>Skills: React, Typescript, MobX, SCSS</figcaption>
-                    <a href='https://github.com/brown-dash/dash-starter-project-erc-ma'>Repo</a>
+                    <figcaption>Used: React, Typescript, MobX, SCSS</figcaption>
+                    
                   </div>
                 </div>
-                
-              
-
               </div>
 
               <div className="exp-element">
-
-
-                <h3>Othello</h3>
+              <a className = "exp-title" href='https://dash-starter-project-erc-ma.web.app/' target="_blank">Othello (needsLink)</a>
+              <div className='element'>
                 <p>
-                  Developed a <strong> strategy board game </strong> application that implements 3 levels of <strong>computer intelligence</strong> using <strong>recursive mini-max algorithm</strong>
+                  Developed a strategy board game application that implements 3 levels of computer intelligence using recursive mini-max algorithm.
                 </p>
-
-                <p>
-                  Skills: Java (JavaFX Graphics)
-                </p>
-                <p>
-                ADD GIF HERE (backup with image, backup with text)
-                </p>
+                <div className='element-image'>
+                  <img src='./dash.png'></img>
+                  <figcaption>Used: Java (JavaFX Graphics)</figcaption>
+                </div>
               </div>
-
+              
+              </div>
             </div>
+
         </section>
 
         <section id="experience">
@@ -93,20 +88,36 @@ function App() {
             <div className = "qualifications">
 
             <div className="exp-element">
-                <h3>Brown Dash [Adobe-Funded Project](Software Intern)</h3>
-                <p>
-                Worked on a collaborative browser-based web application in a team...
-                  Implemented a map system using BingMapsReact API. Contributed many front-end UX updates.
-                </p>
+                <a className = "exp-title" href="https://brown-dash.github.io/Dash-Documentation/about/" target="_blank">Brown Dash [Adobe-Funded Project](Software Intern)</a>
+                
+                <div className='element'>
+                  <p>
+                  Worked on a collaborative browser-based web application in a team...
+                  Worked with customer/user UIUX
+                  </p>
+                  <div className='element-image'>
+                    <img src='./dash.png'></img>
+                    <figcaption>Used: React, Typescript, MobX, SCSS</figcaption>
+                    
+                  </div>
+                </div>
               </div>
 
               <div className="exp-element">
-                <h3>Full Stack at Brown (Software Developer)</h3>
-                <p>
-                Created a dynamic website for the Brown Political Union with a team of developers, designers, and the product manager
-                </p>
-
+                <a className = "exp-title" href="https://www.linkedin.com/company/full-stack-at-brown/" target="_blank">Full Stack at Brown (Software Developer)</a>
+                
+                <div className='element'>
+                  <p>
+                  Created a dynamic website for the Brown Political Union with a team of developers, designers, and the product manager
+                  </p>
+                  <div className='element-image'>
+                    <img src='./dash.png'></img>
+                    <figcaption>Used: React, Typescript, MobX, SCSS</figcaption>
+                    
+                  </div>
+                </div>
               </div>
+
 
               <div className="exp-element">
                 <h3>Some courses I took are:</h3>

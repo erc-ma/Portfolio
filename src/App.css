@@ -302,6 +302,21 @@ figcaption{
   font-weight: 700;
 }
 
+.exp-title{
+  color: var(--second-accent-color);
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  padding: 0 5%;
+  margin-bottom: 0;
+  
+  text-decoration: underline;
+  position: relative;
+  font-weight: 700;
+  font-size: 1.17em;
+}
+
+
 
 
 
