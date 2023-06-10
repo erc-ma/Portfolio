@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
 
+const Music = () => {
 
-function App() {
-  
   return (
     <div className="App">
       <header className="App-header">
         <nav className="nav-flex" aria-label="primary-navigation">
             <img src={logo} className="App-logo" alt="Eric's Logo" tabindex="-1"/>
             <div className="flex-row">
-                <a className="link" href="#projects">projects</a>
-                <a className="link" href="#experience">experience</a>
-                <a className="link" href="#resume">resume</a>
-                <a className="link" href="#socials">find me!</a>
-
-                <a className="link" href="/Music/Music.js">music</a>
             </div>
         </nav>
-
-        <h1 className="main-title">eric ma</h1>
+        <h1 className="main-title">eric ma music</h1>
         <h3 className="sub-title"><a className="subtitle-link" target="_blank" href="https://brown.edu">brown '25</a></h3>
         <h3 className="sub-title">software intern <a className="subtitle-link"href="#experience"> @BrownDash</a></h3>
         <h3 className="sub-title">former dev <a className="subtitle-link"href="#experience" > @FullStack</a></h3>
@@ -209,4 +201,4 @@ function App() {
   );
 }
 
-export default App;
+export default Music;

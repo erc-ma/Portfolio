@@ -229,11 +229,6 @@ h3{
 .logos-row{
   padding: 0 8%;
 }
-.logos-row-socials{
-  display:flex;
-  align-items: flex-start;
-  padding: 0 0%;
-}
 p{
   display: flex;
   flex-direction: row;
