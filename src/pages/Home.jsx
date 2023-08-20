@@ -1,11 +1,27 @@
 import React from 'react';
 import '../App.css';
 import logo from '../logo.svg';
+import dash from '../dash.png'
+import othello from '../othello.gif'
 
 function Home() {
+
+
+	// function sendEmail(msg){
+	// 	var templateParams = {
+	// 		message: "msg"
+	// 	}
+	// 	emailjs.send('service_erni648', 'template_ngn7u3e', templateParams)
+	// 	.then(function(response) {
+	// 	   console.log('SUCCESS!', response.status, response.text);
+	// 	}, function(error) {
+	// 	   console.log('FAILED...', error);
+	// 	});
+	// }
   
   return (
     <div className="App">
+      <title>Amongus</title>
       <header className="App-header">
         <nav className="nav-flex" aria-label="primary-navigation">
             <img src={logo}  className="App-logo" alt="Eric's Logo" tabindex="-1"/>
@@ -69,7 +85,7 @@ function Home() {
                   </p>
 
                   <div className='element-image'>
-                    <img src='./dash.png'></img>
+                    <img className="img-actual" src={dash}></img>
                     <figcaption>Used: React, Typescript, MobX, SCSS</figcaption>
                     
                   </div>
@@ -77,13 +93,13 @@ function Home() {
               </div>
 
               <div className="exp-element">
-              <a className = "exp-title" href='https://dash-starter-project-erc-ma.web.app/' target="_blank">Othello (needsLink)</a>
+              <a className = "exp-title" href='https://docs.google.com/document/d/1HTku3fCRDEVV06R4GFRqO8bOcXP4XqV22Dt3gOs2v8I/edit?usp=sharing' target="_blank">Othello</a>
               <div className='element'>
                 <p>
                   Developed a strategy board game application that implements 3 levels of computer intelligence using recursive mini-max algorithm.
                 </p>
                 <div className='element-image'>
-                  <img src='./dash.png'></img>
+                  <img className="img-actual" src={othello}></img>
                   <figcaption>Used: Java (JavaFX Graphics)</figcaption>
                 </div>
               </div>
@@ -105,7 +121,7 @@ function Home() {
                   Worked with customer/user UIUX
                   </p>
                   <div className='element-image'>
-                    <img src='./dash.png'></img>
+                    <img className="img-actual" src='./dash.png'></img>
                     <figcaption>Used: React, Typescript, MobX, SCSS</figcaption>
                     
                   </div>
@@ -120,7 +136,7 @@ function Home() {
                   Created a dynamic website for the Brown Political Union with a team of developers, designers, and the product manager
                   </p>
                   <div className='element-image'>
-                    <img src='./dash.png'></img>
+                    <img className="img-actual" src='./dash.png'></img>
                     <figcaption>Used: React, Typescript, MobX, SCSS</figcaption>
                     
                   </div>
@@ -181,14 +197,26 @@ function Home() {
 
             <div className = "stalk-element">
               <h3 className = "stalk-title">music</h3>
-              <p>musicPage, spotify, applemusic, youtube</p>
+              <p>i make <a className="link" href='/Music'>music</a></p>
+              <a target="_blank" href='https://github.com/erc-ma'>
+                <img className="social-logo" src='https://www.freepnglogos.com/uploads/spotify-logo-png/file-spotify-logo-png-4.png'></img>
+              </a>
+              <a target="_blank" href='https://www.linkedin.com/in/eric-ma-149041233/'>
+                <img className="social-logo" src='https://upload.wikimedia.org/wikipedia/commons/d/d8/YouTubeMusic_Logo.png'></img>
+              </a>
+              <a target="_blank" href='mailto:eric_ma@brown.edu'>
+                <img className="social-logo" src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Apple_Music_icon.svg/2048px-Apple_Music_icon.svg.png'></img>
+              </a>
+              <a target="_blank" href='mailto:eric_ma@brown.edu'>
+                <img className="social-logo" src='https://w7.pngwing.com/pngs/1009/93/png-transparent-youtube-computer-icons-logo-youtube-angle-social-media-share-icon.png'></img>
+              </a>
             </div>
 
             <div className = "stalk-element">
               <h3 className = "stalk-title">photography</h3>
               
               <p>Find some of my photos here:   <a target="_blank" href='https://ericmaa753.myportfolio.com/'>
-                <img className="social-logo" src='https://static-00.iconduck.com/assets.00/adobe-portfolio-icon-512x512-mfisumyd.png'></img>
+                <img className="social-logo" src='https://cdn.iconscout.com/icon/free/png-256/free-adobe-portfolio-2522508-2132696.png'></img>
               </a></p>
               
             </div>
@@ -199,8 +227,6 @@ function Home() {
         </section>
 
       </main>
-
-
 
 
 
